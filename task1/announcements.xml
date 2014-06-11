@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+    <title>Объявления</title>
+    <section id="1">
+        <title>Понижение комиссии</title>
+        <para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at commodi corporis dolorem ducimus eveniet ex expedita fugit incidunt ipsa maiores, minus obcaecati porro praesentium quas rem sit, tenetur ut.</para>
+    </section>
+    <section id="2">
+        <title>Приостановка работы</title>
+        <para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at commodi corporis dolorem ducimus eveniet ex expedita fugit incidunt ipsa maiores, minus obcaecati porro praesentium quas rem sit, tenetur ut.</para>
+    </section>
+    <section id="3">
+        <title>Новые условия</title>
+        <para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at commodi corporis dolorem ducimus eveniet ex expedita fugit incidunt ipsa maiores, minus obcaecati porro praesentium quas rem sit, tenetur ut.</para>
+    </section>
+</chapter>
