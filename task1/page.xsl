@@ -13,6 +13,7 @@
             </head>
             <body>
                 <div class="row">
+                    <div class="col-md-1"></div>
                     <div class="col-md-4">
                         <h3>Форма</h3>
                         <form role="form" id="form1">
@@ -30,7 +31,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-7">
                         <xsl:variable name="announcements" select="document('announcements.xml')/chapter"/>
                         <xsl:apply-templates select="/page/announcements-active">
                             <xsl:with-param name="announcements" select="$announcements"/>
@@ -44,7 +45,7 @@
     <xsl:template match="announcements-active" />
     <xsl:template match="announcements-active[item]">
         <xsl:param name="announcements"/>
-        <ul>
+        <ul class="list-unstyled">
             <xsl:apply-templates select="item">
                 <xsl:with-param name="announcements" select="$announcements"/>
             </xsl:apply-templates>
@@ -55,11 +56,21 @@
         <xsl:param name="announcements"/>
         <xsl:variable name="announcement" select="$announcements/section[@id = current()/@id]"/>
         <li>
-            <h4><xsl:value-of select="$announcement/title"/></h4>
-            <p>
-                <xsl:value-of select="$announcement/para"/>
-            </p>
+            <xsl:apply-templates select="$announcement/title" mode="announcement-title"/>
+            <xsl:apply-templates select="$announcement/para" mode="announcement-para"/>
         </li>
+    </xsl:template>
+
+    <xsl:template match="title" mode="announcement-title">
+        <h4>
+            <xsl:value-of select="."/>
+        </h4>
+    </xsl:template>
+
+    <xsl:template match="para" mode="announcement-para">
+        <p>
+            <xsl:value-of select="."/>
+        </p>
     </xsl:template>
 
 </xsl:stylesheet>
