@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<catalog>
+    <cd>
+        <title>Meteora</title>
+        <artist>Linkin Park</artist>
+        <studio>Warner Music Group</studio>
+        <year>2003</year>
+        <tracks>
+            <track title="Foreword " length="0:13"/>
+            <track title="Don't Stay" length="3:07"/>
+            <track title="Somewhere I Belong " length="3:34"/>
+            <track title="Lying From You" length="2:55"/>
+            <track title="Hit The Floor " length="2:44"/>
+            <track title="Easier To Run " length="3:24"/>
+            <track title="Faint " length="2:43"/>
+            <track title="Figure.09 " length="3:17"/>
+            <track title="Breaking The Habit " length="3:19"/>
+            <track title="From The Inside " length="2:53"/>
+            <track title="Nobody's Listening " length="2:58"/>
+            <track title="Session " length="2:23"/>
+            <track title="Numb " length="3:06"/>
+            <track title="Lying From You" length="3:04"/>
+            <track title="From The Inside " length="2:55"/>
+            <track title="Easier To Run " length="3:22"/>
+        </tracks>
+        <cover link="http://upload.wikimedia.org/wikipedia/ru/thumb/b/bf/Meteora.jpg/200px-Meteora.jpg"/>
+    </cd>
+    <cd>
+        <title>The King of Limbs</title>
+        <artist>Radiohead</artist>
+        <studio>Warner Music Group</studio>
+        <year>2011</year>
+        <tracks>
+            <track title="Bloom" length="5:15"/>
+            <track title="Morning Mr Magpie" length="4:41"/>
+            <track title="Little by Little" length="4:27"/>
+            <track title="Feral" length="3:13"/>
+            <track title="Lotus Flower" length="5:01"/>
+            <track title="Codex" length="4:47"/>
+            <track title="Give Up the Ghost" length="4:50"/>
+            <track title="Separator" length="5:20"/>
+        </tracks>
+        <cover link="http://upload.wikimedia.org/wikipedia/en/thumb/2/24/The_king_of_limbs.jpg/220px-The_king_of_limbs.jpg"/>
+    </cd>
+    <cd>
+        <title>OK Computer</title>
+        <artist>Radiohead</artist>
+        <studio>Warner Music Group</studio>
+        <year>1997</year>
+        <tracks>
+            <track title="Airbag"  length="4:44"/>
+            <track title="Paranoid Android"  length="6:23"/>
+            <track title="Subterranean Homesick Alien"  length="4:27"/>
+            <track title="Exit Music (For a Film)"  length="4:24"/>
+            <track title="Let Down"  length="4:59"/>
+            <track title="Karma Police"  length="4:21"/>
+            <track title="Fitter Happier"  length="1:57"/>
+            <track title="Electioneering"  length="3:50"/>
+            <track title="Climbing Up the Walls"  length="4:45"/>
+            <track title="No Surprises"  length="3:48"/>
+            <track title="Lucky"  length="4:19"/>
+            <track title="The Tourist"  length="5:24"/>
+        </tracks>
+        <cover link="http://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Radiohead.okcomputer.albumart.jpg/220px-Radiohead.okcomputer.albumart.jpg"/>
+    </cd>
+    <cd>
+        <title>Dummy</title>
+        <artist>Third</artist>
+        <studio>Island</studio>
+        <year>2008</year>
+        <tracks>
+            <track title="Silence"  length="4:58"/>
+            <track title="Hunter"  length="3:57"/>
+            <track title="Nylon Smile"  length="3:16"/>
+            <track title="The Rip"  length="4:29"/>
+            <track title="Plastic"  length="3:27"/>
+            <track title="We Carry On"  length="6:27"/>
+            <track title="Deep Water"  length="1:31"/>
+            <track title="Machine Gun"  length="4:43"/>
+            <track title="Small"  length="6:45"/>
+            <track title="Magic Doors"  length="3:32"/>
+            <track title="Threads"  length="5:45"/>
+        </tracks>
+        <cover link="http://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Portishead_-_Third.png/220px-Portishead_-_Third.png"/>
+    </cd>
+    <cd>
+        <title>Results May Vary</title>
+        <artist>Limp Bizkit</artist>
+        <studio>Flip, Interscope</studio>
+        <year>2008</year>
+        <tracks>
+            <track title="Re-Entry"  length="2:37"/>
+            <track title="Eat You Alive"  length="3:56"/>
+            <track title="Gimme The Mic"  length="3:01"/>
+            <track title="Underneath The Gun"  length="5:41"/>
+            <track title="Down Another Day"  length="4:06"/>
+            <track title="Almost Over"  length="4:38"/>
+            <track title="Build A Bridge"  length="3:56"/>
+            <track title="Red Light - Green Light"  length="3:54"/>
+            <track title="The Only One"  length="4:08"/>
+            <track title="Let Me Down"  length="4:16"/>
+            <track title="Lonely World"  length="4:33"/>
+            <track title="Phenomenon"  length="3:56"/>
+            <track title="Creamer (Radio Is Dead)"  length="4:30"/>
+            <track title="Head For The Barricade"  length="3:32"/>
+            <track title="Behind Blue Eyes"  length="4:30"/>
+            <track title="Drown"  length="3:51"/>
+        </tracks>
+        <cover link="http://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Limp_bizkit_results_may_vary.jpg/220px-Limp_bizkit_results_may_vary.jpg"/>
+    </cd>
+</catalog>
