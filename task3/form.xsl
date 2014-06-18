@@ -16,6 +16,8 @@
             <form class="form-horizontal" role="form">
                 <xsl:apply-templates select="fields/field" mode="webforms"/>
             </form>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="main.js"></script>
         </body>
         </html>
     </xsl:template>
