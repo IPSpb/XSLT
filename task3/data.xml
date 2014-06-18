@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+    <field type="text" label="Введите Ваше имя" required="true">
+        <properties>
+            <property name="id">name</property>
+            <property name="name">name</property>
+            <property name="placeholder">Ваше имя</property>
+            <property name="required"></property>
+        </properties>
+    </field>
+    <field type="text" label="Введите Ваше отчество">
+        <properties>
+            <property name="id">middle-name</property>
+            <property name="name">middle-name</property>
+            <property name="placeholder">Ваше отчество</property>
+        </properties>
+    </field>
+    <field type="text" label="Введите Вашу фамилию">
+        <properties>
+            <property name="id">surname</property>
+            <property name="name">surname</property>
+            <property name="placeholder">Ваша фамилия</property>
+        </properties>
+    </field>
+    <field type="number" label="Сколько Вам лет">
+        <properties>
+            <property name="id">number</property>
+            <property name="name">number</property>
+            <property name="min">10</property>
+            <property name="max">100</property>
+        </properties>
+        <error>
+            Количества лет должно быть в районе от 10 до 100
+        </error>
+    </field>
+    <field type="select" label="Город">
+        <properties>
+            <property name="id">city</property>
+            <property name="name">city</property>
+        </properties>
+        <items>
+            <item value="Спорт">Москва</item>
+            <item value="Спорт">Санкт-Петербург</item>
+            <item value="Спорт">Сочи</item>
+            <item value="Спорт">Мурманск</item>
+        </items>
+    </field>
+    <field type="hidden">
+        <properties>
+            <property name="id">hidden</property>
+            <property name="value">Скрытое поле</property>
+        </properties>
+    </field>
+    <field type="submit">
+        <properties>
+            <property name="value">Отправить</property>
+        </properties>
+    </field>
+</fields>
