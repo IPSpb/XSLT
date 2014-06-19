@@ -5,7 +5,9 @@
             <property name="id">name</property>
             <property name="name">name</property>
             <property name="placeholder">Ваше имя</property>
-            <property name="required"></property>
+            <property name="required">required</property>
+            <property name="pattern">[a-zA-Z ]{5,}</property>
+            <property name="maxlength">30</property>
         </properties>
     </field>
     <field type="text" label="Введите Ваше отчество">
@@ -13,6 +15,7 @@
             <property name="id">middle-name</property>
             <property name="name">middle-name</property>
             <property name="placeholder">Ваше отчество</property>
+            <property name="required">required</property>
         </properties>
     </field>
     <field type="text" label="Введите Вашу фамилию">
@@ -20,6 +23,7 @@
             <property name="id">surname</property>
             <property name="name">surname</property>
             <property name="placeholder">Ваша фамилия</property>
+            <property name="required">required</property>
         </properties>
     </field>
     <field type="number" label="Сколько Вам лет">
@@ -28,6 +32,7 @@
             <property name="name">number</property>
             <property name="min">10</property>
             <property name="max">100</property>
+            <property name="required">required</property>
         </properties>
         <error>
             Количества лет должно быть в районе от 10 до 100

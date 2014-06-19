@@ -5,22 +5,23 @@
 <title>Валидация параметров формы</title>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
 </head>
 <body>
-<form class="form-horizontal" role="form">
-<div class="form-group">
-<label class="col-sm-2 control-label" for="name">Введите Ваше имя:</label><div class="col-sm-5"><input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя" required=""></div>
+<form class="form-horizontal" role="form" id="myform">
+<div class="form-group has-feedback">
+<label class="col-sm-2 control-label" for="name">Введите Ваше имя:</label><div class="col-sm-5"><input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя" required="required" pattern="[a-zA-Z ]{5,}" maxlength="30"></div>
 </div>
-<div class="form-group">
-<label class="col-sm-2 control-label" for="middle-name">Введите Ваше отчество:</label><div class="col-sm-5"><input type="text" class="form-control" id="middle-name" name="middle-name" placeholder="Ваше отчество"></div>
+<div class="form-group has-feedback">
+<label class="col-sm-2 control-label" for="middle-name">Введите Ваше отчество:</label><div class="col-sm-5"><input type="text" class="form-control" id="middle-name" name="middle-name" placeholder="Ваше отчество" required="required"></div>
 </div>
-<div class="form-group">
-<label class="col-sm-2 control-label" for="surname">Введите Вашу фамилию:</label><div class="col-sm-5"><input type="text" class="form-control" id="surname" name="surname" placeholder="Ваша фамилия"></div>
+<div class="form-group has-feedback">
+<label class="col-sm-2 control-label" for="surname">Введите Вашу фамилию:</label><div class="col-sm-5"><input type="text" class="form-control" id="surname" name="surname" placeholder="Ваша фамилия" required="required"></div>
 </div>
-<div class="form-group">
-<label class="col-sm-2 control-label" for="number">Сколько Вам лет:</label><div class="col-sm-5"><input type="number" class="form-control" id="number" name="number" min="10" max="100"></div>
+<div class="form-group has-feedback">
+<label class="col-sm-2 control-label" for="number">Сколько Вам лет:</label><div class="col-sm-5"><input type="number" class="form-control" id="number" name="number" min="10" max="100" required="required"></div>
 </div>
-<div class="form-group">
+<div class="form-group has-feedback">
 <label class="col-sm-2 control-label" for="city">Город:</label><div class="col-sm-5"><select class="form-control" id="city" name="city"><option value="Спорт">Москва</option>
 <option value="Спорт">Санкт-Петербург</option>
 <option value="Спорт">Сочи</option>
@@ -28,6 +29,6 @@
 </div>
 <input type="hidden" id="hidden" value="Скрытое поле"><div class="form-group"><div class="col-sm-offset-2 col-sm-5"><input type="submit" class="btn btn-default" value="Отправить"></div></div>
 </form>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

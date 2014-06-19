@@ -11,19 +11,19 @@
             <title>Валидация параметров формы</title>
             <link rel="stylesheet" href="main.css" />
             <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+            <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
         </head>
         <body>
-            <form class="form-horizontal" role="form">
+            <form class="form-horizontal" role="form" id="myform">
                 <xsl:apply-templates select="fields/field" mode="webforms"/>
             </form>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
             <script src="main.js"></script>
         </body>
         </html>
     </xsl:template>
 
     <xsl:template match="field" mode="webforms">
-        <div class="form-group">
+        <div class="form-group has-feedback">
             <label class="col-sm-2 control-label">
                 <xsl:if test="properties/property[@name = 'id']">
                     <xsl:attribute name="for">
